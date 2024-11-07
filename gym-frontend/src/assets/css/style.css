@@ -1,0 +1,76 @@
+/* 全局背景色和字体设置 */
+body {
+    background-color: #fafafa; /* 非常浅的灰白色背景 */
+    color: #333; /* 深灰色字体 */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* 侧边栏样式 */
+.sidebar-menu {
+    width: 240px;
+    height: 100vh;
+    background-color: #ffffff; /* 纯白色背景 */
+    color: #4a4a4a; /* 深色文字 */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* 轻微阴影 */
+    padding-top: 20px;
+    border-right: 1px solid #e0e0e0; /* 边框分割 */
+}
+
+.sidebar-menu .el-menu-item {
+    font-size: 16px;
+    padding: 12px 20px;
+    color: #4a4a4a;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    margin: 8px 16px;
+}
+
+.sidebar-menu .el-menu-item:hover {
+    background-color: #e6f7ff; /* 浅蓝色悬停背景 */
+    color: #007acc; /* 悬停状态蓝色字体 */
+}
+
+.sidebar-menu .el-menu-item.is-active {
+    background-color: #d0e8ff; /* 激活状态浅蓝背景 */
+    color: #007acc; /* 激活状态蓝色字体 */
+}
+
+.sidebar-menu .el-icon {
+    margin-right: 8px;
+    color: #007acc; /* 图标颜色 */
+    background-color: #f0f0f0; /* 图标背景颜色 */
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* 页面内容容器 */
+.container {
+    margin-left: 260px; /* 侧边栏宽度的间隔 */
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* 卡片阴影 */
+    border-radius: 8px;
+}
+
+/* 链接样式 */
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005fa3;
+    text-decoration: underline;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #fafafa;
+    color: #4a4a4a;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #e0e0e0;
+}
